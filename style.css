@@ -1,0 +1,92 @@
+.esquerda{
+
+    background-image: url(./images/image-product-desktop.jpg);
+    background-size: cover;
+width: 400px;
+height: 500px;
+position: relative;
+left: 300px;
+bottom: 450px;
+border-radius: 15px 0px 0px 15px ;
+}
+
+.direita{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+height: 500px;
+position: relative;
+left: 700px;
+top: 50px;
+border-radius: 0px 15px 15px 0px;
+
+}
+
+body{
+  overflow-y: hidden;
+  background: hsl(30, 38%, 92%);
+}
+
+.legenda{
+    position: relative;
+    left: 50px;
+}
+
+.nome{
+    font-family: 'Fraunces', serif;
+}
+
+.topo{
+    font-family: 'Montserrat', sans-serif;
+letter-spacing: 3px;
+color:  hsl(228, 12%, 48%);
+font-size: 15px;
+}
+
+.descriçao{
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    color:hsl(228, 12%, 48%);
+}
+
+.valor{
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+color:  hsl(158, 36%, 37%);
+}
+
+.valor2{
+    color: hsl(228, 12%, 48%);
+position: relative;
+bottom: 15px;
+left: 10px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.botao{
+ background: hsl(158, 36%, 37%) ;
+padding: 15px 40px 15px 140px;
+border-radius: 10px;
+position: relative;
+top: 20px;
+}
+
+.bu-nome{
+    position: relative;
+right: 50px;
+top: 2px;
+color: white;
+font-family: arial;
+}
+
+.botao:hover{
+background-color: black;
+
+}
+
+.bu-nome:hover{
+    color: yellow;
+}
+
+
